@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8" />
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="../style/style.css">
+
+	<title>Error</title>
+</head>
+
+<body>
+	<div class="container category-container" id="app">
+
+		<div class="header-wrapper">
+			<div class="header header__container">
+				<div class="header-img">
+					<img src="./../assets/img/Group 18.png" alt="Logo">
+				</div>
+
+				<nav class="header__nav menu">
+					<ul class="nav__list header__list">
+
+						<li class="nav__list-item"><a href="./../../index.html" class="nav__list-link">Главная</a></li>
+
+						<li class="nav__list-item"><a href="#" class="nav__list-link  active">О нас</a></li>
+
+						<li class="nav__list-item"><a href="./contacts.html" class="nav__list-link">Контакты</a></li>
+
+						<li class="nav__list-item"><a href="#" class="nav__list-link">Поиск</a></li>
+
+						<li class="nav__list-item"><a href="tel:+798788787" type="tel" class="nav__list-tel"><img
+									src="./../assets/img/phone-call 1.svg" alt="Phone"> +7 (987) 887-87</a></li>
+
+					</ul>
+				</nav>
+				<button class="header__burger--btn" id="burger">
+					<span></span>
+					<span></span>
+					<span></span>
+				</button>
+			</div>
+		</div>
+
+		<main>
+
+			<div class="error-container">
+				<div class="error-wrapper">
+
+					<picture>
+						<source media="(max-width: 480px)" srcset="./../assets/img/Avatar_320.svg" />
+						<source media="(max-width: 1024px )" srcset="./../assets/img/Avatar_1024.svg" />
+						<img src="./../assets/img/Avatar_1920.svg" alt="image">
+					</picture>
+
+					<h2 class="h2__title error__title">Что-то пошло не так...</h2>
+
+					<a href="javascript: history.go(-1)" class="btn go-back-btn">
+
+						<svg width="10" height="11" viewBox="0 0 10 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<g clip-path="url(#clip0_2_401)">
+								<path
+									d="M2.41344 5.22558L7.03874 0.613083C7.19028 0.462049 7.43563 0.462303 7.58692 0.613865C7.73809 0.765407 7.7377 1.01089 7.58614 1.16205L3.23616 5.50002L7.58629 9.83797C7.73784 9.98914 7.73823 10.2345 7.58708 10.386C7.51124 10.462 7.41188 10.5 7.31253 10.5C7.21342 10.5 7.11446 10.4623 7.03876 10.3868L2.41344 5.77443C2.34046 5.70181 2.2995 5.60299 2.2995 5.50002C2.2995 5.39705 2.34057 5.29834 2.41344 5.22558Z"
+									fill="" />
+							</g>
+							<defs>
+								<clipPath id="clip0_2_401">
+									<rect width="10" height="10" fill="white" transform="matrix(-1 0 0 1 10 0.5)" />
+								</clipPath>
+							</defs>
+						</svg>
+
+						<span>
+							Вернуться назад
+						</span>
+					</a>
+				</div>
+			</div>
+
+		</main>
+
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__wrapper">
+					<div class="footer__logo">
+						<img src="./../assets/img/Group 18.png" alt="Logo">
+					</div>
+					<nav class="footer__nav">
+						<ul class="nav__list footer__list">
+							<li class="nav__list-item"><a href="./../../index.html" class="nav__list-link">Главная</a></li>
+
+							<li class="nav__list-item"><a href="#" class="nav__list-link  active">О нас</a></li>
+
+							<li class="nav__list-item"><a href="./contacts.html" class="nav__list-link">Контакты</a></li>
+
+							<li class="nav__list-item"><a href="#" class="nav__list-link">Поиск</a></li>
+						</ul>
+					</nav>
+					<div class="footer__copy">
+						<span>ООО “Организация” 2020. Все права защищены</span>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+	<script type="module" src="../../main.js"></script>
+</body>
+
+</html>

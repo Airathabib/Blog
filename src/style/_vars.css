@@ -1,0 +1,16 @@
+:root{
+	--primary-purple: rgb(93, 113, 221);
+	--bg-grey: #F7F8FD;
+	--white: #FFF;
+	--text: #2F2222;
+	--input-bg: #f5f5f5;
+	--purple-bg: #7d8de4;;
+	--bg: #F1F2F7;
+	--shadow:4px 8px 40px 0 rgba(8, 24, 111, 0.2);
+	--gap: 40px;
+	--radius: 20px;
+	--sign: 8px;
+	--text-opacity: 40%;
+	--padding-20: 20px;
+}
+

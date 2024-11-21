@@ -1,0 +1,31 @@
+.category {
+	width: 100%;
+	display: flex;
+	min-height: 180px;
+	align-items: center;
+	justify-content: center;
+	background: var(--bg);
+}
+
+.category__title {
+	font-weight: 600;
+	font-size: 30px;
+	text-align: center;
+	color: var(--primary-purple);
+}
+
+
+@media screen and (max-width: 1024px) {
+	.category {
+		min-height: 150px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.category {
+		min-height: 120px;
+	}
+	.category__title{
+		font-size: 24px;
+	}
+}

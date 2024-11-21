@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8" />
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="../style/style.css">
+
+	<title>News</title>
+</head>
+
+<body>
+	<div class="container news-container" id="app">
+
+		<div class="header-wrapper">
+			<div class="header header__container">
+				<div class="header-img">
+					<img src="./../assets/img/Group 18.png" alt="Logo">
+				</div>
+
+				<nav class="header__nav menu">
+
+					<ul class="nav__list header__list">
+
+						<li class="nav__list-item"><a href="./../../index.html" class="nav__list-link">Главная</a></li>
+
+						<li class="nav__list-item"><a href="./error.html" class="nav__list-link">О нас</a></li>
+
+						<li class="nav__list-item"><a href="./contacts.html" class="nav__list-link">Контакты</a></li>
+
+						<li class="nav__list-item"><a href="#" class="nav__list-link">Поиск</a></li>
+
+						<li class="nav__list-item"><a href="tel:+798788787" type="tel" class="nav__list-tel"><img
+									src="./../assets/img/phone-call 1.svg" alt="Phone"> +7 (987) 887-87</a></li>
+
+					</ul>
+				</nav>
+				<button class="header__burger--btn" id="burger">
+					<span></span>
+					<span></span>
+					<span></span>
+				</button>
+			</div>
+			<div class="header-poster">
+				<picture>
+					<source media="(max-width: 480px)" srcset="./../assets/img/news320.jpg" />
+					<source media="(max-width: 1024px )" srcset="./../assets/img/news1024.jpg" />
+					<img src="./../assets/img/news.1920.jpg" alt="image">
+				</picture>
+			</div>
+		</div>
+
+		<main>
+			<div class="main main__container">
+
+				<aside class="aside">
+					<div class="aside-top">
+						<h2 class="aside__title  h2__title">
+							Популярные новости
+						</h2>
+						<div class="info__block">
+
+							<div class="aside__block">
+								<a href="#" class="aside__link">
+									<p class="aside__text">ITAM&SAMDay – самая настоящая удача!</p>
+									<div class="aside__data text-opacity">13 дек 2020</div>
+								</a>
+
+							</div>
+
+							<hr class="text-opacity" />
+
+							<div class="aside__block">
+								<a href="#" class="aside__link">
+									<p class="aside__text">Секреты лицензирования. Всё, что вы хотели знать про Microsoft, SAP и Oracle,
+										но
+										не знали, у кого спросить ...</p>
+									<div class="aside__data  text-opacity">10 дек 2020</div>
+								</a>
+							</div>
+
+							<hr class="text-opacity" />
+
+							<div class="aside__block">
+								<a href="#" class="aside__link">
+									<p class="aside__text">Менеджмент XXI века. Надо ли готовиться к изменениям или мы давно уже должны
+										были
+										измениться?</p>
+									<div class="aside__data  text-opacity">5 дек 2020</div>
+								</a>
+							</div>
+
+						</div>
+
+					</div>
+
+					<div class="aside__form">
+						<h2 class="h2__title form__title">Подписка на рассылку</h2>
+
+						<form class="form-wrapper">
+							<input type="mail" name="mail" placeholder="Email@gmail.com" class="aside__input">
+							<button class="aside__button  btn" type="submit">
+
+								<span>
+									Подписаться
+								</span>
+
+								<svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<g clip-path="url(#clip0_2_936)">
+										<path
+											d="M19.5857 9.85046L1.01474 1.27924C0.719033 1.14496 0.366184 1.22496 0.160475 1.47924C-0.046663 1.73352 -0.0538057 2.09494 0.143332 2.35636L6.25033 10.499L0.143332 18.6417C-0.0538057 18.9031 -0.046663 19.2659 0.159046 19.5188C0.297614 19.6917 0.504752 19.7845 0.714747 19.7845C0.816173 19.7845 0.917599 19.7631 1.01331 19.7188L19.5843 11.1476C19.8386 11.0304 20 10.7776 20 10.499C20 10.2205 19.8386 9.9676 19.5857 9.85046Z"
+											fill="" />
+									</g>
+									<defs>
+										<clipPath id="clip0_2_936">
+											<rect width="20" height="20" fill="white" transform="translate(0 0.5)" />
+										</clipPath>
+									</defs>
+								</svg>
+
+							</button>
+						</form>
+					</div>
+
+				</aside>
+				<div class="news__section section-container">
+
+					<div class="news__top">
+						<div class="block__sign sign-1">Категория 1</div>
+
+						<div class="block__sign  sign-2">Очень длинная категория 2</div>
+						<div class="block__data  ">13 дек 2020</div>
+					</div>
+
+					<h1 class="h1__title news__title">Управление ИТ-активами – скучная рутина или творческая задача?</h1>
+
+					<div class="news__block">
+
+						<div class="info-wrapper text-wrapper">
+
+							<p class="info-text">Размышляя об управлении ИТ-активами, я вспомнил один учебный пример. Менеджер по
+								ИТ-мощностям в крупной компании периодически готовил толстенный отчёт руководству. В очередной раз он не
+								принёс отчёт, решив проверить, нужен ли он вообще. Выждав несколько дней, он пришёл к руководителю и
+								спросил: «Похоже тот отчёт, который я готовлю, не особо востребован, а что вам действительно нужно?»
+								Руководитель признался, что массивный отчёт хороший, но им не пользуются. И набросал на листе бумаги то,
+								что хотелось бы иметь под рукой.</p>
+							<p class="info-text">Управление ИТ-активами, как и управление конфигурациями, является базовым процессом
+								для других. В первом случае более важным является финансовый аспект, во втором – эксплуатационные
+								задачи. Оба процесса можно перегрузить деталями и превратить во что-то рутинное. Как же найти баланс и
+								сделать процесс по-настоящему «живым»?</p>
+						</div>
+
+						<div class="info-wrapper ">
+							<div class="text-wrapper">
+								<p class="info-text">Конечно, баланс унификации и персонального подхода – дело каждого. Вспомним историю
+									про послевоенное автомобилестроение: американская и японская тактика. Постепенно японцы достигли
+									превосходства благодаря, в том числе, выверенному балансу унификации и культуре производства. Но это
+									правило не для всех.</p>
+								<p class="info-text">Конечно, баланс унификации и персонального подхода – дело каждого. Вспомним историю
+									про послевоенное автомобилестроение: американская и японская тактика. Постепенно японцы достигли
+									превосходства благодаря, в том числе, выверенному балансу унификации и культуре производства. Но это
+									правило не для всех.</p>
+							</div>
+
+							<div class="info__img">
+
+								<picture>
+									<source media="(max-width: 480px)" srcset="./../assets/img/infotext320.jpg" />
+									<source media="(max-width: 1024px )" srcset="./../assets/img/infotext1024.jpg" />
+									<img src="./../assets/img/infotext-img1920.jpg" alt="image">
+								</picture>
+
+								<p class="info__img-descr">Учёт из рутины может превратиться в интересную задачу, своего рода «вызов» по
+									переходу на новый уровень.</p>
+
+							</div>
+
+						</div>
+						<div class="info__picture-wrapper">
+							<picture>
+								<source media="(max-width: 480px)" srcset="./../assets/img/infoposter320.jpg" />
+								<source media="(max-width: 1024px )" srcset="./../assets/img/infoposter1024.jpg" />
+								<img src="./../assets/img/infoposter1920.jpg" alt="poster">
+							</picture>
+						</div>
+
+					</div>
+
+
+				</div>
+				<div class="info__btn-wrapper">
+					<button class="btn info__btn  info__btn--prev">
+						<svg width="10" height="11" viewBox="0 0 10 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<g clip-path="url(#clip0_2_655)">
+								<path
+									d="M2.41344 5.22558L7.03874 0.613083C7.19028 0.462049 7.43563 0.462303 7.58692 0.613865C7.73809 0.765407 7.7377 1.01089 7.58614 1.16205L3.23616 5.50002L7.58629 9.83797C7.73784 9.98914 7.73823 10.2345 7.58708 10.386C7.51124 10.462 7.41188 10.5 7.31253 10.5C7.21342 10.5 7.11446 10.4623 7.03876 10.3868L2.41344 5.77443C2.34046 5.70181 2.2995 5.60299 2.2995 5.50002C2.2995 5.39705 2.34057 5.29834 2.41344 5.22558Z"
+									fill="" />
+							</g>
+							<defs>
+								<clipPath id="clip0_2_655">
+									<rect width="10" height="10" fill="white" transform="matrix(-1 0 0 1 10 0.5)" />
+								</clipPath>
+							</defs>
+						</svg>
+						<span>
+							Предыдущая новость
+						</span>
+
+					</button>
+					<button class="btn info__btn  info__btn--next">
+						<span>
+							Следующая новость
+						</span>
+						<svg width="10" height="11" viewBox="0 0 10 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<g clip-path="url(#clip0_2_649)">
+								<path
+									d="M7.58656 5.22558L2.96126 0.613083C2.80972 0.462049 2.56437 0.462303 2.41308 0.613865C2.26191 0.765407 2.2623 1.01089 2.41386 1.16205L6.76384 5.50002L2.41371 9.83797C2.26216 9.98914 2.26177 10.2345 2.41292 10.386C2.48876 10.462 2.58812 10.5 2.68747 10.5C2.78658 10.5 2.88554 10.4623 2.96124 10.3868L7.58656 5.77443C7.65954 5.70181 7.7005 5.60299 7.7005 5.50002C7.7005 5.39705 7.65943 5.29834 7.58656 5.22558Z"
+									fill="" />
+							</g>
+							<defs>
+								<clipPath id="clip0_2_649">
+									<rect width="10" height="10" fill="white" transform="translate(0 0.5)" />
+								</clipPath>
+							</defs>
+						</svg>
+					</button>
+
+				</div>
+			</div>
+		</main>
+
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__wrapper">
+					<div class="footer__logo">
+						<img src="./../assets/img/Group 18.png" alt="Logo">
+					</div>
+					<nav class="footer__nav">
+						<ul class="nav__list footer__list">
+							<li class="nav__list-item"><a href="./../../index.html" class="nav__list-link">Главная</a></li>
+
+							<li class="nav__list-item"><a href="./error.html" class="nav__list-link">О нас</a></li>
+
+							<li class="nav__list-item"><a href="./contacts.html" class="nav__list-link">Контакты</a></li>
+
+							<li class="nav__list-item"><a href="#" class="nav__list-link">Поиск</a></li>
+
+
+						</ul>
+					</nav>
+					<div class="footer__copy">
+						<span>ООО “Организация” 2020. Все права защищены</span>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+	<script type="module" src="../../main.js"></script>
+</body>
+
+</html>
