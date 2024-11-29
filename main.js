@@ -1,3 +1,7 @@
+import 'normalize.css';
+import './style.css';
+
+
 const burger = document.getElementById('burger');
 const showMoreBtn = document.getElementById('showMore-btn')
 const showList = document.querySelectorAll('.hidden');
